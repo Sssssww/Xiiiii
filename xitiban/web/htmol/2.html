@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HTML常用的行级元素</title>
+</head>
+<body>
+    <!--链接标签 a标签 hreh属性 跟这是要跳转的网址
+     target:_blank 生成新的页面中
+     -->
+    <!--路径问题在实际开发当中建议使用相对路径./当前目录../上目录-->
+
+    <a href="http://www.baidu.com" target="_blank">百度</a> <br>
+    <a href="1.html" target="_blank">本地文件</a>
+
+    <!--图像标签
+        src:图片的地址(网络资源或本地地址)
+        alt:用于图片加载失败的代替文字(必须存在)
+        title:鼠标悬停在图片时的提示信息(可写可不写)
+        width:设置图片宽度
+        height:设置图片高度
+        注意:一般我们只给图片设置宽度或高度,那高度或宽度会等比例放大或缩小
+    -->
+
+    <img src="https://ss0.bdstatic.com/94oJfD_bAAcT8t7mm9GUKT-xh_/timg?image&quality=100&size=b4000_4000&sec=1542289247&di=1d7b22d10997657a482755cb8bfeffb6&src=http://pic.qiantucdn.com/58pic/25/99/58/58aa038a167e4_1024.jpg" alt="风景图"
+    title="风景啊" width="100px">
+    <img src="../image/111b6024027394f65e7a101542289702.jpg" alt="又是一张风景图" width="100px"> <br>
+    <!--文本标签-->
+        <!--b:加粗  i:斜体   strong:具有强调意义 em:斜体具有强调意义-->
+        正常:            我如果<br>
+        加粗:         <b>爱你，</b><br>
+        斜体:        <i>不会</i> <br>
+        正常:           像攀援的凌霄花，<br>
+        强调意义:     <strong>借你的</strong> <br>
+        斜体强调意义 :  <em>高枝</em>来炫耀自己<br>
+    <!--span:无语义的行级元素 一般span标签配合css使用 来设置文本当中一部分内容-->
+        我如果爱你，不会像攀援的凌霄花，借你的高枝来炫耀自己 <br>
+        <span>我如果爱你，</span> 不会像攀援的凌霄花，借你的高枝来炫耀自己 <br>
+
+    <!--html 当中的实体字符  &gt;:大于号  &lt;:小于号 ,&copy:版权商标-->
+        1&gt;2; <br>
+        1>2;    <br>
+        &copy   <br>
+
+</body>
+</html>
